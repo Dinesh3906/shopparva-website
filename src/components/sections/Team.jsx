@@ -57,9 +57,9 @@ export const Team = () => {
                             A team of tech-focused problem solvers dedicated to building long-term value.
                         </p>
                     </div>
-                    <button className="text-neon-blue hover:text-white transition-colors font-semibold flex items-center gap-2">
+                    <a href="#contact" className="text-neon-blue hover:text-white transition-colors font-semibold flex items-center gap-2">
                         Join our team <span className="text-xl">→</span>
-                    </button>
+                    </a>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
