@@ -9,8 +9,8 @@ const team = [
     {
         name: "Dinesh kumar",
         role: "Founder & CEO",
-        bio: "Visionary leader driving the mission to revolutionize online shopping accessibility.",
-        tags: ["Strategy", "Product", "Leadership"],
+        bio: "Tech-focused problem solver with a background in computer science. Focused on building long-term value for Indian shoppers.",
+        tags: ["Product", "Strategy", "Engineering"],
         image: ceoImg,
         links: {
             github: "https://github.com/Dinesh3906",
@@ -20,7 +20,7 @@ const team = [
     {
         name: "Hinduja simhadri",
         role: "Tech Co-founder",
-        bio: "Architecting scalable systems and AI models that power the ShopParva engine.",
+        bio: "Architecting scalable systems and AI models. Passionate about using technology to solve real-world problems.",
         tags: ["Full Stack", "AI/ML", "Cloud"],
         image: techImg,
         links: {
@@ -31,8 +31,8 @@ const team = [
     {
         name: "sathvik bhat",
         role: "Marketing Co-founder",
-        bio: "Crafting the brand voice and taking ShopParva to every shopper's screen.",
-        tags: ["Growth", "Brand", "Community"],
+        bio: "Focused on practical growth strategies and building authentic connections with our user community.",
+        tags: ["Growth", "Community", "Operations"],
         image: marketingImg,
         links: {
             github: "#",
@@ -51,10 +51,10 @@ export const Team = () => {
                 <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
                     <div>
                         <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
-                            Meet the <span className="text-gradient-purple">Builders</span>
+                            Meet the <span className="text-gradient-purple">Founders</span>
                         </h2>
                         <p className="text-gray-400 max-w-xl text-lg">
-                            We are a team of engineers, designers, and dreamers building the next generation of shopping intelligence.
+                            A team of tech-focused problem solvers dedicated to building long-term value.
                         </p>
                     </div>
                     <button className="text-neon-blue hover:text-white transition-colors font-semibold flex items-center gap-2">

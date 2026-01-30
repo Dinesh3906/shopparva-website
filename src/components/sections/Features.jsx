@@ -4,40 +4,58 @@ import { LineChart, Zap, ShoppingCart, Brain, Layers, Globe } from 'lucide-react
 
 const features = [
     {
-        title: "Real-time Price Tracking",
-        desc: "Instant alerts when prices drop on your favorite products across 50+ stores.",
-        icon: LineChart,
+        title: "Best Price in Whole India",
+        desc: "We scan multiple platforms to show you the lowest available price instantly. Know where it's cheapest.",
+        icon: Globe,
         color: "from-blue-500 to-cyan-500"
     },
     {
-        title: "AI-Powered Comparisons",
-        desc: "Our engine analyzes reviews and specs to recommend the absolute best value.",
-        icon: Brain,
+        title: "Multi-Platform Price Tracker",
+        desc: "Track prices across all supported platforms with clear visual graphs. Spot real discounts vs fake offers.",
+        icon: LineChart,
         color: "from-purple-500 to-pink-500"
     },
     {
-        title: "Instant Alerts",
-        desc: "Get notified via WhatsApp, Email, or Push Notification the second a deal goes live.",
+        title: "Price Drop Notifications",
+        desc: "Set your price. We notify you when it drops on ANY platform. No need to monitor multiple apps.",
         icon: Zap,
         color: "from-yellow-400 to-orange-500"
     },
     {
-        title: "Unified Dashboard",
-        desc: "Manage all your wishlists, orders, and price history in one beautiful interface.",
+        title: "Try-On / Preview Support",
+        desc: "Visualize before you buy with virtual try-on features for supported categories. Reduce wrong purchases.",
         icon: Layers,
         color: "from-green-400 to-emerald-600"
     },
     {
-        title: "Smart Recommendations",
-        desc: "Personalized suggestions based on your browsing habits and budget.",
+        title: "Make My Kit",
+        desc: "Bundle multiple products (essentials, setups) and find the best combined price across platforms.",
         icon: ShoppingCart,
         color: "from-red-500 to-pink-600"
     },
     {
-        title: "Global Availability",
-        desc: "Shop from international stores with automatic currency conversion and shipping calculation.",
-        icon: Globe,
+        title: "Preference Tab for Confused Customers",
+        desc: "Select your budget, brand, and trust preferences. We suggest the best option for YOU.",
+        icon: Brain,
         color: "from-indigo-400 to-blue-600"
+    },
+    {
+        title: "Smart Deal Insights",
+        desc: "Data-driven highlights of genuine deals. We warn you about inflated MRPs and fake discounts.",
+        icon: Zap,
+        color: "from-orange-400 to-red-500"
+    },
+    {
+        title: "Platform Availability Check",
+        desc: "See which platforms actually have stock. Save time and avoid clicking dead links.",
+        icon: Layers,
+        color: "from-teal-400 to-green-500"
+    },
+    {
+        title: "Best User Experience",
+        desc: "Clean, fast, distraction-free UI optimized for Indian internet conditions and low-end devices.",
+        icon: Globe,
+        color: "from-blue-400 to-indigo-500"
     }
 ];
 
@@ -50,7 +68,7 @@ export const Features = () => {
                         Everything you need to <span className="text-gradient-purple">Shop Smarter</span>
                     </h2>
                     <p className="text-gray-400 max-w-2xl mx-auto text-lg">
-                        ShopParva brings enterprise-grade analytics to your personal shopping, helping you save money without the hassle.
+                        ShopParva is a smart shopping intelligence platform built for India.
                     </p>
                 </div>
 

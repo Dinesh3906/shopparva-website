@@ -7,10 +7,11 @@ import { cn } from '../lib/utils';
 // We use hash links for single-page scrolling behavior
 const navLinks = [
     { name: 'Home', path: '#' },
-    { name: 'Features', path: '#features' }, // ID specific
-    { name: 'Stack', path: '#stack' },
-    { name: 'Team', path: '#team' },
-    { name: 'Roadmap', path: '#roadmap' },
+    { name: 'About', path: '#about' },
+    { name: 'Features', path: '#features' },
+    { name: 'How It Works', path: '#how-it-works' },
+    { name: 'Why Us', path: '#why-shopparva' },
+    { name: 'Founders', path: '#team' },
     { name: 'Contact', path: '#contact' },
 ];
 

@@ -60,7 +60,7 @@ export const Hero = () => {
                     </h1>
 
                     <p className="text-lg text-gray-400 mb-6 lg:mb-10 max-w-lg leading-relaxed">
-                        ShopParva helps users track prices, compare deals, and make intelligent buying decisions using AI-powered insights across every platform.
+                        ShopParva is a smart shopping intelligence platform built for India. Find the best price across all major platforms, understand real trends, and avoid fake discounts.
                     </p>
 
                     {/* Buttons */}
