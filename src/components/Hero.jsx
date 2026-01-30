@@ -5,7 +5,7 @@ import { Button } from './ui/Button';
 
 export const Hero = () => {
     return (
-        <section className="relative min-h-[55vh] lg:min-h-[90vh] flex items-start lg:items-center pt-24 lg:pt-20 overflow-hidden">
+        <section className="relative min-h-[50vh] lg:min-h-[90vh] flex items-start lg:items-center pt-24 lg:pt-20 overflow-hidden">
             {/* Background Abstract Mesh - EXTREME PERFORMANCE OPTIMIZATION */}
             {/* Replaced 'filter: blur()' with 'radial-gradient' for 0 cost rendering */}
             <div className="absolute top-0 right-0 w-full lg:w-[60%] h-full pointer-events-none opacity-60">
