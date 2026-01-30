@@ -78,10 +78,10 @@ export const Features = () => {
                             key={idx}
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
-                            viewport={{ once: true, amount: 0.1 }}
+                            viewport={{ once: true, margin: "-100px" }}
                             transition={{
-                                delay: idx % 3 * 0.05,
-                                duration: 0.4,
+                                delay: idx * 0.08,
+                                duration: 0.5,
                                 ease: "easeOut"
                             }}
                             whileHover={{

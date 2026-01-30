@@ -68,8 +68,8 @@ export const Team = () => {
                             key={idx}
                             initial={{ opacity: 0, scale: 0.95 }}
                             whileInView={{ opacity: 1, scale: 1 }}
-                            viewport={{ once: true, amount: 0.1 }}
-                            transition={{ delay: (idx % 3) * 0.05 }}
+                            viewport={{ once: true }}
+                            transition={{ delay: idx * 0.1 }}
                             className="group relative"
                         >
                             <div className="absolute inset-0 bg-gradient-to-r from-neon-purple to-neon-blue rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-sm" />
