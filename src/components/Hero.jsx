@@ -8,7 +8,10 @@ export const Hero = () => {
         <section className="relative min-h-[90vh] flex items-center pt-20 overflow-hidden">
             {/* Background Abstract Mesh - EXTREME PERFORMANCE OPTIMIZATION */}
             {/* Replaced 'filter: blur()' with 'radial-gradient' for 0 cost rendering */}
-            <div className="absolute top-0 right-0 w-[60%] h-full pointer-events-none opacity-60">
+            <div className="absolute top-0 right-0 w-full lg:w-[60%] h-full pointer-events-none opacity-60">
+                {/* Static background to fill gap immediately */}
+                <div className="absolute inset-0 bg-gradient-to-b from-[#0b0f1a]/80 to-[#1a1f2e]/80 lg:hidden" />
+
                 <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -62,9 +65,11 @@ export const Hero = () => {
 
                     {/* Buttons */}
                     <div className="flex flex-col sm:flex-row gap-4 mb-12">
-                        <Button variant="primary" icon={ArrowRight} className="h-14 px-8 text-lg shadow-[0_0_30px_rgba(124,108,255,0.3)]">
-                            Explore ShopParva
-                        </Button>
+                        <a href="https://drive.google.com/file/d/1-Xc0kERB9HrSkBgmjkS1ZhwJUybyNVlm/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                            <Button variant="primary" icon={ArrowRight} className="h-14 px-8 text-lg shadow-[0_0_30px_rgba(124,108,255,0.3)] w-full sm:w-auto">
+                                Explore ShopParva
+                            </Button>
+                        </a>
                         <Button variant="secondary" className="h-14 px-8 text-lg group">
                             <Play className="w-4 h-4 mr-2 fill-white group-hover:scale-110 transition-transform" />
                             Watch Demo
