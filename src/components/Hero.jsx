@@ -5,7 +5,7 @@ import { Button } from './ui/Button';
 
 export const Hero = () => {
     return (
-        <section className="relative min-h-[90vh] flex items-center pt-20 overflow-hidden">
+        <section className="relative min-h-[80vh] lg:min-h-[90vh] flex items-center pt-10 lg:pt-20 overflow-hidden">
             {/* Background Abstract Mesh - EXTREME PERFORMANCE OPTIMIZATION */}
             {/* Replaced 'filter: blur()' with 'radial-gradient' for 0 cost rendering */}
             <div className="absolute top-0 right-0 w-full lg:w-[60%] h-full pointer-events-none opacity-60">
@@ -44,7 +44,7 @@ export const Hero = () => {
                     className="flex flex-col justify-center"
                 >
                     {/* Badge */}
-                    <div className="flex items-center gap-2 mb-6">
+                    <div className="flex items-center gap-2 mb-4 lg:mb-6">
                         <div className="px-3 py-1 rounded-full border border-neon-purple/30 bg-neon-purple/10 flex items-center gap-2">
                             <span className="w-2 h-2 rounded-full bg-neon-purple animate-pulse" />
                             <span className="text-neon-purple text-xs font-semibold tracking-wider uppercase">Beta Live Now</span>
@@ -54,17 +54,17 @@ export const Hero = () => {
 
                     {/* Heading */}
                     {/* Simplified structure for performance */}
-                    <h1 className="text-5xl lg:text-7xl font-bold text-white leading-[1.1] mb-6 tracking-tight">
+                    <h1 className="text-5xl lg:text-7xl font-bold text-white leading-[1.1] mb-4 lg:mb-6 tracking-tight">
                         Discover <span className="text-gradient-purple">Smarter</span><br />
                         Shopping Decisions.
                     </h1>
 
-                    <p className="text-lg text-gray-400 mb-10 max-w-lg leading-relaxed">
+                    <p className="text-lg text-gray-400 mb-6 lg:mb-10 max-w-lg leading-relaxed">
                         ShopParva helps users track prices, compare deals, and make intelligent buying decisions using AI-powered insights across every platform.
                     </p>
 
                     {/* Buttons */}
-                    <div className="flex flex-col sm:flex-row gap-4 mb-12">
+                    <div className="flex flex-col sm:flex-row gap-4 mb-8 lg:mb-12">
                         <a href="https://drive.google.com/file/d/1-Xc0kERB9HrSkBgmjkS1ZhwJUybyNVlm/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                             <Button variant="primary" icon={ArrowRight} className="h-14 px-8 text-lg shadow-[0_0_30px_rgba(124,108,255,0.3)] w-full sm:w-auto">
                                 Explore ShopParva
