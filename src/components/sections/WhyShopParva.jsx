@@ -54,8 +54,8 @@ export const WhyShopParva = () => {
                             key={idx}
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
-                            viewport={{ once: true }}
-                            transition={{ delay: idx * 0.1 }}
+                            viewport={{ once: true, amount: 0.1 }}
+                            transition={{ delay: (idx % 3) * 0.05 }}
                             className="bg-white/5 border border-white/5 rounded-xl p-8 hover:bg-white/10 transition-colors"
                         >
                             <item.icon className="w-10 h-10 text-neon-purple mb-6" />

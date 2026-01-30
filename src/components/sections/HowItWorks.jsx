@@ -41,8 +41,8 @@ export const HowItWorks = () => {
                             key={idx}
                             initial={{ opacity: 0, scale: 0.9 }}
                             whileInView={{ opacity: 1, scale: 1 }}
-                            viewport={{ once: true }}
-                            transition={{ delay: idx * 0.2 }}
+                            viewport={{ once: true, amount: 0.1 }}
+                            transition={{ delay: idx * 0.1 }}
                             className="relative z-10"
                         >
                             <div className="glass-panel p-8 rounded-2xl border border-white/10 h-full flex flex-col items-center text-center hover:border-white/20 transition-colors">
