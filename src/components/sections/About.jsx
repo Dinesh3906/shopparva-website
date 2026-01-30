@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 export const About = () => {
     return (
-        <section className="py-24 relative overflow-hidden">
+        <section className="py-12 lg:py-24 relative overflow-hidden">
             {/* Background elements */}
             <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-500/5 blur-[120px] rounded-full pointer-events-none" />
 

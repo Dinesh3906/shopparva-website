@@ -21,7 +21,7 @@ const steps = [
 
 export const HowItWorks = () => {
     return (
-        <section className="py-24 relative overflow-hidden">
+        <section className="py-12 lg:py-24 relative overflow-hidden">
             {/* Background Blob */}
             <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-neon-purple/5 blur-[100px] rounded-full pointer-events-none" />
 

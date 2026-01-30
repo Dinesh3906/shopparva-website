@@ -43,7 +43,7 @@ const team = [
 
 export const Team = () => {
     return (
-        <section className="py-24 relative overflow-hidden">
+        <section className="py-12 lg:py-24 relative overflow-hidden">
             {/* Background blobs */}
             <div className="absolute top-1/2 left-0 w-[500px] h-[500px] bg-neon-purple/5 blur-[120px] rounded-full pointer-events-none" />
 
