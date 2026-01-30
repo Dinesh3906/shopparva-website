@@ -75,11 +75,11 @@ export const Team = () => {
                             <div className="absolute inset-0 bg-gradient-to-r from-neon-purple to-neon-blue rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-sm" />
                             <div className="relative bg-[#0f111e] rounded-2xl p-6 border border-white/10 h-full flex flex-col hover:translate-y-[-5px] transition-transform duration-300">
                                 {/* Profile Image with gradient overlay match */}
-                                <div className="relative w-full aspect-[4/3] mb-6 overflow-hidden rounded-xl">
+                                <div className="relative w-full aspect-square mb-6 overflow-hidden rounded-xl bg-white/5">
                                     <img
                                         src={member.image}
                                         alt={member.name}
-                                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                        className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-110"
                                     />
                                     <div className="absolute inset-0 bg-gradient-to-t from-[#0f111e] to-transparent opacity-60" />
                                 </div>
