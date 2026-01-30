@@ -21,12 +21,12 @@ const steps = [
 
 export const HowItWorks = () => {
     return (
-        <section className="py-12 lg:py-24 relative overflow-hidden">
+        <section className="py-8 lg:py-24 relative overflow-hidden">
             {/* Background Blob */}
             <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-neon-purple/5 blur-[100px] rounded-full pointer-events-none" />
 
             <div className="container mx-auto px-6">
-                <div className="text-center mb-20">
+                <div className="text-center mb-10 lg:mb-20">
                     <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
                         How It <span className="text-gradient-purple">Works</span>
                     </h2>

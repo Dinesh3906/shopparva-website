@@ -37,9 +37,9 @@ const differentiators = [
 
 export const WhyShopParva = () => {
     return (
-        <section className="py-12 lg:py-24 relative bg-[#0b0f1a]/50">
+        <section className="py-8 lg:py-24 relative bg-[#0b0f1a]/50">
             <div className="container mx-auto px-6">
-                <div className="text-center mb-16">
+                <div className="text-center mb-8 lg:mb-16">
                     <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
                         Why <span className="text-gradient-purple">ShopParva?</span>
                     </h2>

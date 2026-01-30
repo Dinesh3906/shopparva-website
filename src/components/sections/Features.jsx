@@ -61,9 +61,9 @@ const features = [
 
 export const Features = () => {
     return (
-        <section className="py-12 lg:py-24 relative">
+        <section className="py-8 lg:py-24 relative">
             <div className="container mx-auto px-6">
-                <div className="text-center mb-16">
+                <div className="text-center mb-8 lg:mb-16">
                     <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
                         Everything you need to <span className="text-gradient-purple">Shop Smarter</span>
                     </h2>

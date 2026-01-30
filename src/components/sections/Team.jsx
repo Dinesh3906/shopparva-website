@@ -43,12 +43,12 @@ const team = [
 
 export const Team = () => {
     return (
-        <section className="py-12 lg:py-24 relative overflow-hidden">
+        <section className="py-8 lg:py-24 relative overflow-hidden">
             {/* Background blobs */}
             <div className="absolute top-1/2 left-0 w-[500px] h-[500px] bg-neon-purple/5 blur-[120px] rounded-full pointer-events-none" />
 
             <div className="container mx-auto px-6">
-                <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+                <div className="flex flex-col md:flex-row justify-between items-end mb-8 lg:mb-16 gap-6">
                     <div>
                         <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
                             Meet the <span className="text-gradient-purple">Founders</span>

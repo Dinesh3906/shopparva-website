@@ -39,7 +39,7 @@ export const Contact = () => {
     };
 
     return (
-        <section className="py-12 lg:py-24 relative" id="contact">
+        <section className="py-8 lg:py-24 relative" id="contact">
             <div className="container mx-auto px-6">
                 <div className="grid lg:grid-cols-2 gap-16">
                     <div>
