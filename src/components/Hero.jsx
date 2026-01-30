@@ -49,7 +49,7 @@ export const Hero = () => {
                             <span className="w-2 h-2 rounded-full bg-neon-purple animate-pulse" />
                             <span className="text-neon-purple text-xs font-semibold tracking-wider uppercase">Beta Live Now</span>
                         </div>
-                        <span className="text-gray-400 text-sm">Join 2,000+ Smart Shoppers</span>
+                        <span className="text-gray-400 text-sm">Joined 2,000+ Smart Shoppers</span>
                     </div>
 
                     {/* Heading */}
