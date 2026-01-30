@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ShieldCheck, BarChart, Heart, MousePointer2, Smartphone } from 'lucide-react';
+import { ShieldCheck, BarChart, Heart, MousePointer2, Smartphone, Sparkles } from 'lucide-react';
 
 const differentiators = [
     {
@@ -27,6 +27,11 @@ const differentiators = [
         title: "Transparent Intelligence",
         desc: "No hidden algorithms. We show you exactly why a deal is good or bad.",
         icon: Heart
+    },
+    {
+        title: "Zero Clutter",
+        desc: "We keep it simple. No pop-ups, no spam, just the insights you need.",
+        icon: Sparkles
     }
 ];
 
